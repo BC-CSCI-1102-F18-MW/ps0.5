@@ -4,7 +4,7 @@
 
 ### Part 1: Access the Problem Set
 
-1. Create a folder on your computer for this class called CS2 or CS1102. I have mine on my Desktop so I don't have to drill down to far to find it.
+1. Create a folder on your computer for this class called CS2 or CS1102. I have mine on my Desktop so it's easy to find.
 
 2. By now you should have received an email with an invitation to accept Problem Set 0.5. If you didn't receive the email or can't find it, you can find the link on Canvas. Accept the invitation, and then download the associated repository as a zip file, move the zip to the folder you created in Step 1, and unzip it.
 
@@ -16,7 +16,7 @@
 
 2. After you download the dmg (Mac) or exe (Windows), double-click it to start the installation. Click where you need to click to complete the installation, and you should be all set. If something goes wrong, contact a TA. 
 
-### Part 3: Install the textbook libraries `algs4.jar`
+### Part 3: Install the textbook library
 
 1. Installing `algs4.jar`
 
@@ -37,7 +37,7 @@ The easiest way to set the `CLASSPATH` is to use the *unix shell* that comes ins
 
 <img src="terminal.png" width="600"  />
 
-This is a bash shell by default. The shell is waiting for you to type a unix command. You don't have to master unix for this course, but it would be helpful to study it if you aren't familiar with it. Google for a tutorial or follow along with the [very basic tutorial I use in my other classes](https://people.rit.edu/emilypx/lab1.html) (no need to turn it in, of course).
+Terminal provides a bash shell by default. The shell is waiting for you to type a unix command. You don't have to master unix for this course, but it would be helpful to study it if you aren't familiar with it. Google for a tutorial or follow along with the [very basic tutorial I use in my other classes](https://people.rit.edu/emilypx/lab1.html) (no need to turn it in, of course).
 
 For now type **exactly** what is shown to the right of the `$` prompt. Feel free to copy and paste, but don't include the `$`!:
 
@@ -73,7 +73,7 @@ you should see something like
 /usr/local/algs4/algs4.jar
 ```
 
-If you have problems with any of these steps, reach out to a TA. If they worked, move on to Part 4 and skip over the Windows instructions, below.
+If you have problems with any of these steps, reach out to a TA. If it worked, move on to Part 4 and skip over the Windows instructions, below.
 
 #### Windows
 
@@ -87,7 +87,7 @@ What follows is a cribbed version of instructions specified on SW's algs4 websit
    C:\Users\username\algs4\algs4.jar;
    ```
 
-   where `username` is **your username** on your computer. The semicolons separate entries in the `CLASSPATH`.
+   where `username` is **your username** on your computer. A semicolon separates entries in the `CLASSPATH` so don't forget include it when you paste in the above text.
 
 3. Click OK three times. 
 
@@ -95,7 +95,7 @@ What follows is a cribbed version of instructions specified on SW's algs4 websit
 
 ### Part 4: Install and configure Atom
 
-In this course we'll be using GitHub's Atom editor to write our Java code and we'll be using git and GitHub to distribute and collect materials. Fortunately, git and GitHub are nicely integrated into the Atom editor. You can find a lot of [video tutorials on using Atom](https://www.leveluptutorials.com/tutorials/atom-editor-tutorials) though you probably won't need much as it's intuitive and we'll be using only a small part of its functionality.
+In this course we'll be using GitHub's Atom editor to write our Java code, and we'll be using git and GitHub to distribute and collect problem sets. Fortunately, git and GitHub are nicely integrated into the Atom editor. You can find a lot of [video tutorials on using Atom](https://www.leveluptutorials.com/tutorials/atom-editor-tutorials) though you probably won't need much as it's intuitive and we'll be using only a small part of its functionality.
 
 1. [Download and install Atom](https://atom.io), following the instructions that are provided.
 
@@ -110,3 +110,6 @@ In this course we'll be using GitHub's Atom editor to write our Java code and we
 <img src="install.png" width="600"  />
 
 5. In the search box that appears, enter ``platformio-ide-terminal``, then click Install, and wait for installation to complete.
+
+### Part 5: Submit your first Java program
+
