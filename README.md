@@ -91,7 +91,7 @@ What follows is a cribbed version of instructions specified on SW's algs4 websit
 
 3. Click OK three times. 
 
-*NOTE* If you don't see a variable named `CLASSPATH`, click **New** and in the popup window enter `CLASSPATH` for the variable name. Then, perform the instructions above.
+*NOTE:* If you don't see a variable named `CLASSPATH`, click **New** and in the popup window enter `CLASSPATH` for the variable name. Then, perform the instructions above.
 
 ### Part 4: Install and configure Atom
 
