@@ -111,7 +111,7 @@ In this course we'll be using GitHub's Atom editor to write our Java code, and w
 
 5. In the search box that appears, enter ``platformio-ide-terminal``. Click Install button for ``platform-ide-terminal``, and wait for installation to complete.
 
-### Part 5: Write and submit your first Java program
+### Part 5: 
 
 1. In Atom, go to `File -> Open`, and navigate to your class folder, then to the unzipped folder you downloaded from GitHub for this class. Select the file called `HelloWorld.java`.
 
