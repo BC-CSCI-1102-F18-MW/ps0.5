@@ -35,7 +35,7 @@ Java needs to know where to look for libraries, like the `algs4.jar` file you ju
 
 The easiest way to set the `CLASSPATH` is to use the *unix shell* that comes installed on MacOS in the Terminal app. You can find the Terminal app in your Applications folder, or you can search for it using Spotlight by clicking the magnifying glass in the upper right corner of the screen. Launch Terminal, and you'll see something like this: 
 
-![terminal](terminal.png)
+<img src="terminal.png" width="600"  />
 
 This is a bash shell by default. The shell is waiting for you to type a unix command. You don't have to master unix for this course, but it would be helpful to study it if you aren't familiar with it. Google for a tutorial or follow along with the [very basic tutorial I use in my other classes](https://people.rit.edu/emilypx/lab1.html) (no need to turn it in, of course).
 
@@ -103,10 +103,10 @@ In this course we'll be using GitHub's Atom editor to write our Java code and we
 
 3. You now need to install some Atom packages that will customize Atom for use in this class. From Atom's menu bar, click the Atom menu, and then select Preferences to open the Settings menu. You can also access the settings via a keyboard shortcut: in MacOS hold down the ``command``key and type a comma; in Windows, hold down the ``control`` key and type a comma.
 
-![terminal](atommenu.png)
+<img src="atommenu.png" width="300"  />
 
 4. On the left of the Settings area, you’ll see a menu with items like Core, Editor, URI Handling and so on. Click on the menu item that says Install, which has a plus-sign icon next to it.
 
-![terminal](install.png)
+<img src="install.png" width="500"  />
 
 5. In the search box that appears, enter ``platformio-ide-terminal``, then click Install, and wait for installation to complete.
