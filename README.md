@@ -107,6 +107,6 @@ In this course we'll be using GitHub's Atom editor to write our Java code and we
 
 4. On the left of the Settings area, you’ll see a menu with items like Core, Editor, URI Handling and so on. Click on the menu item that says Install, which has a plus-sign icon next to it.
 
-<img src="install.png" width="500"  />
+<img src="install.png" width="600"  />
 
 5. In the search box that appears, enter ``platformio-ide-terminal``, then click Install, and wait for installation to complete.
