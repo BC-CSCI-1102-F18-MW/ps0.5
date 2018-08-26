@@ -20,12 +20,12 @@
 
 1. Installing `algs4.jar`
 
-One of the nice things about the Algorithms book is the extensive software library developed by the authors. The library is housed in the Java archive `algs4.jar`.  The simplest option for setting this up is to use the automated installation scripts developed by SW. **NB: follow ONLY step 0 of the instructions there**.
+One of the nice things about the Algorithms book is the extensive software library developed by the authors. The library is housed in the Java archive `algs4.jar`.  The simplest option for setting this up is to use the automated installation scripts developed by SW. **NB: follow ONLY step 0, starting from the third bullet, of the instructions there**.
 
 + [MacOS](https://algs4.cs.princeton.edu/mac/)
 + [Windows](https://algs4.cs.princeton.edu/windows/)
 
-Following the instructions **only for Step 0** and executing the downloaded installer script on your computer will download the `algs4.jar` library for you (along with other tools).
+Following the instructions **only for Step 0 starting from the third bullet** and executing the downloaded installer script on your computer will download the `algs4.jar` library for you (along with other tools).
 
 2. Setting the `CLASSPATH` variable
 
