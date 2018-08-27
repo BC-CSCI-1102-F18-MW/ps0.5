@@ -1,5 +1,7 @@
 # Problem Set 0.5
 
+# Is the Best
+
 ## Due Friday, August 31, at 11:59pm local time
 
 ### Part 1: Access the Problem Set
@@ -8,13 +10,13 @@
 
 2. By now you should have received an email with an invitation to accept Problem Set 0.5. If you didn't receive the email or can't find it, you can find the link on Canvas. Accept the invitation, and then download the associated repository as a zip file, move the zip to the folder you created in Step 1, and unzip it.
 
-3. You now have the git repository ("repo") you need to complete the programming portion of the problem set, which will be described in part 5, below. 
+3. You now have the git repository ("repo") you need to complete the programming portion of the problem set, which will be described in part 5, below.
 
 ### Part 2: Install Java SE
 
 1. Although there are several newer versions of Java, we'll be using Java 8. Download the Java SE Development Kit 8u181 (the last three numbers might be different, that's okay!) for your operating system from [here](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
 
-2. After you download the dmg (Mac) or exe (Windows), double-click it to start the installation. Click where you need to click to complete the installation, and you should be all set. If something goes wrong, contact a TA. 
+2. After you download the dmg (Mac) or exe (Windows), double-click it to start the installation. Click where you need to click to complete the installation, and you should be all set. If something goes wrong, contact a TA.
 
 ### Part 3: Install the textbook library
 
@@ -33,7 +35,7 @@ Java needs to know where to look for libraries, like the `algs4.jar` file you ju
 
 #### MacOS
 
-The easiest way to set the `CLASSPATH` is to use the *unix shell* that comes installed on MacOS in the Terminal app. You can find the Terminal app in your Applications folder, or you can search for it using Spotlight by clicking the magnifying glass in the upper right corner of the screen. Launch Terminal, and you'll see something like this: 
+The easiest way to set the `CLASSPATH` is to use the *unix shell* that comes installed on MacOS in the Terminal app. You can find the Terminal app in your Applications folder, or you can search for it using Spotlight by clicking the magnifying glass in the upper right corner of the screen. Launch Terminal, and you'll see something like this:
 
 <img src="terminal.png" width="600"  />
 
@@ -77,11 +79,11 @@ If you have problems with any of these steps, reach out to a TA. If it worked, m
 
 #### Windows
 
-What follows is a cribbed version of instructions specified on SW's algs4 website for adding the `algs4.jar` library to the `CLASSPATH` for Windows. 
+What follows is a cribbed version of instructions specified on SW's algs4 website for adding the `algs4.jar` library to the `CLASSPATH` for Windows.
 
 1. Windows 7: Start -> Computer -> System Properties -> Advanced system settings -> Environment Variables -> User variables -> CLASSPATH. Windows 8 and 10: Search -> System (Control Panel) -> Advanced system settings -> Environment Variables -> User variables -> CLASSPATH.
 
-2. Prepend the following to the beginning of the `CLASSPATH` variable: 
+2. Prepend the following to the beginning of the `CLASSPATH` variable:
 
    ```bash
    C:\Users\username\algs4\algs4.jar;
@@ -89,7 +91,7 @@ What follows is a cribbed version of instructions specified on SW's algs4 websit
 
    where `username` is **your username** on your computer. A semicolon separates entries in the `CLASSPATH` so don't forget include it when you paste in the above text.
 
-3. Click OK three times. 
+3. Click OK three times.
 
 *NOTE:* If you don't see a variable named `CLASSPATH`, click **New** and in the popup window enter `CLASSPATH` for the variable name. Then, perform the instructions above.
 
@@ -111,11 +113,11 @@ In this course we'll be using GitHub's Atom editor to write our Java code, and w
 
 5. In the search box that appears, enter ``platformio-ide-terminal``. Click Install button for ``platform-ide-terminal``, and wait for installation to complete.
 
-### Part 5: 
+### Part 5:
 
 1. In Atom, go to `File -> Open`, and navigate to your class folder, then to the unzipped folder you downloaded from GitHub for this class. Select the file called `HelloWorld.java`.
 
-2. You should now see something like this, below, with a structure showing the files in your current directory in the left pane and an editor containing the Java code on the right. 
+2. You should now see something like this, below, with a structure showing the files in your current directory in the left pane and an editor containing the Java code on the right.
 
 <img src="atomjava.png" width="300"  />
 
@@ -128,13 +130,13 @@ System.out.println("Hello, World!")
 
 Replace the words ``Hello, World!`` with your favorite greeting.
 
-4. From the ``File`` menu, select ``Save`` (or use your usual keyboard shortcut for saving, like command-s in MacOS or control-s in Windows). 
+4. From the ``File`` menu, select ``Save`` (or use your usual keyboard shortcut for saving, like command-s in MacOS or control-s in Windows).
 
 5. From Atom's ``Packages`` menu, select ``platformio-ide-terminal -> New Terminal``. Atom will now look something like this, with a terminal where you can type commands:
 
 <img src="atomterminal.png" width="300"  />
 
-6. In the terminal window that just opened, type the 
+6. In the terminal window that just opened, type the
 
 ```bash
 [bash cs1102]$ javac HelloWorld.java
