@@ -1,7 +1,5 @@
 # Problem Set 0.5
 
-# Is the Best
-
 ## Due Friday, August 31, at 11:59pm local time
 
 ### Part 1: Access the Problem Set
@@ -45,11 +43,11 @@ For now type **exactly** what is shown to the right of the `$` prompt. Feel free
 
 ```bash
 $ cd
-$ echo "export CLASSPATH=\$CLASSPATH:/usr/local/algs4/algs4.jar" >> ~/.bashrc
+$ echo "export CLASSPATH=\$CLASSPATH:/usr/local/algs4/algs4.jar" >> ~/.bash_profile
 $ source .bashrc
 ```
 
-The first command makes your home directory (i.e.,  `/Users/yourusername/`) the current working directory. The second command appends a key line to your bash startup file (``.bashrc``) setting your `CLASSPATH` variable. The third command executes that startup file. That same startup file will be automatically executed each time you launch the Terminal app.
+The first command makes your home directory (i.e.,  `/Users/yourusername/`) the current working directory. The second command appends a key line to your bash startup file (``.bash_profile``) setting your `CLASSPATH` variable. The third command executes that startup file. That same startup file will be automatically executed each time you launch the Terminal app.
 
 Confirm that Java is installed by typing
 
@@ -105,21 +103,21 @@ In this course we'll be using GitHub's Atom editor to write our Java code, and w
 
 3. You now need to install an Atom package that will customize Atom for use in this class. From Atom's menu bar, click the Atom menu, and then select Preferences to open the Settings menu. You can also access the settings via a keyboard shortcut: in MacOS hold down the ``command``key and type a comma; in Windows, hold down the ``control`` key and type a comma.
 
-<img src="atommenu.png" width="300"  />
+<img src="img/atommenu.png" width="300"  />
 
 4. On the left of the Settings area, you’ll see a menu with items like Core, Editor, URI Handling and so on. Click on the menu item that says Install, which has a plus-sign icon next to it.
 
-<img src="install.png" width="600"  />
+<img src="img/install.png" width="600"  />
 
 5. In the search box that appears, enter ``platformio-ide-terminal``. Click Install button for ``platform-ide-terminal``, and wait for installation to complete.
 
 ### Part 5:
 
-1. In Atom, go to `File -> Open`, and navigate to your class folder, then to the unzipped folder you downloaded from GitHub for this class. Select the file called `HelloWorld.java`.
+1. In Atom, go to `File -> Open`, and navigate to your class folder, where you unzipped the folder you downloaded from GitHub for this problem set. Select the problem set folder, and then click Open. 
 
-2. You should now see something like this, below, with a structure showing the files in your current directory in the left pane and an editor containing the Java code on the right.
+2. You should now see something like this, below, with a tree structure showing the files in your current directory in the left pane and an editor containing the Java code on the right.
 
-<img src="atomjava.png" width="300"  />
+<img src="img/atomjava.png" width="300"  />
 
 
 3. In the panel with the code, you'll see this line:
@@ -134,7 +132,7 @@ Replace the words ``Hello, World!`` with your favorite greeting.
 
 5. From Atom's ``Packages`` menu, select ``platformio-ide-terminal -> New Terminal``. Atom will now look something like this, with a terminal where you can type commands:
 
-<img src="atomterminal.png" width="300"  />
+<img src="img/atomterminal.png" width="300"  />
 
 6. In the terminal window that just opened, type the
 
