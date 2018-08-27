@@ -29,7 +29,7 @@ One of the nice things about the Sedgewick and Wayne Algorithms book (which we'l
 + [MacOS](https://algs4.cs.princeton.edu/mac/)
 + [Windows](https://algs4.cs.princeton.edu/windows/)
 
-Following the instructions **only for Step 0 starting from the third bullet** and executing the downloaded installer script on your computer will download the `algs4.jar` library for you (along with other tools).
+Following the instructions **only for Step 0 starting from the third bullet** and executing the downloaded installer script on your computer will download the `algs4.jar` library for you (along with other tools). **If you run into problems on Mac, please have a close look at the installation FAQs. Mostly likely you'll have to move the algs4.app to another folder and try again, but if that doesn't work, follow the instructions for the sudo command at the end of installation FAQs.**
 
 2. Setting the `CLASSPATH` variable
 
