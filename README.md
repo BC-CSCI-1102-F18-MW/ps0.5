@@ -6,7 +6,7 @@
 
 1. Create a folder on your computer for this class called CS2 or CS1102. I have mine on my Desktop so it's easy to find.
 
-2. By now you should have received an email with an invitation to accept Problem Set 0.5. If you didn't receive the email or can't find it, you can find the link on Canvas. Accept the invitation, and then download the associated repository as a zip file, move the zip to the folder you created in Step 1, and unzip it.
+2. By now you should have received an email with an invitation to accept Problem Set 0.5. If you didn't receive the email or can't find it, you can find the link on Canvas. Accept the invitation, and then download the associated repository as a zip file, move the zip to the class folder you created in Step 1, and unzip it.
 
 3. You now have the git repository ("repo") you need to complete the programming portion of the problem set, which will be described in part 5, below.
 
@@ -35,7 +35,7 @@ Java needs to know where to look for libraries, like the `algs4.jar` file you ju
 
 The easiest way to set the `CLASSPATH` is to use the *unix shell* that comes installed on MacOS in the Terminal app. You can find the Terminal app in your Applications folder, or you can search for it using Spotlight by clicking the magnifying glass in the upper right corner of the screen. Launch Terminal, and you'll see something like this:
 
-<img src="terminal.png" width="600"  />
+<img src="img/terminal.png" width="600"  />
 
 Terminal provides a bash shell by default. The shell is waiting for you to type a unix command. You don't have to master unix for this course, but it would be helpful to study it if you aren't familiar with it. To learn more, Google a tutorial or follow along with the [very basic tutorial I use in my other classes](https://people.rit.edu/emilypx/lab1.html) (no need to turn it in, of course).
 
@@ -111,16 +111,16 @@ In this course we'll be using GitHub's Atom editor to write our Java code, and w
 
 5. In the search box that appears, enter ``platformio-ide-terminal``. Click Install button for ``platform-ide-terminal``, and wait for installation to complete.
 
-### Part 5:
+### Part 5: Editing a file and pushing edits to GitHub
 
-1. In Atom, go to `File -> Open`, and navigate to your class folder, where you unzipped the folder you downloaded from GitHub for this problem set. Select the problem set folder, and then click Open. 
+1. In Atom, go to `File -> Open`, and navigate to your class folder, where you unzipped the folder you downloaded from GitHub for this problem set in Part 1, above. Select the problem set folder, and then click Open. 
 
-2. You should now see something like this, below, with a tree structure showing the files in your current directory in the left pane and an editor containing the Java code on the right.
+2. You should now see something like this, below, with a tree structure showing the files in your current directory in the left pane and an empty pane on the right. (Feel free to close any of the pesky Welcome tabs and panes that Atom likes to open up.)
 
 <img src="img/atomjava.png" width="300"  />
 
 
-3. In the panel with the code, you'll see this line:
+3. Click on ``HelloWorld.java``, and code will appear in the panel on the right. Find where you see this in the code:
 
 ```bash
 System.out.println("Hello, World!")
@@ -130,12 +130,4 @@ Replace the words ``Hello, World!`` with your favorite greeting.
 
 4. From the ``File`` menu, select ``Save`` (or use your usual keyboard shortcut for saving, like command-s in MacOS or control-s in Windows).
 
-5. From Atom's ``Packages`` menu, select ``platformio-ide-terminal -> New Terminal``. Atom will now look something like this, with a terminal where you can type commands:
 
-<img src="img/atomterminal.png" width="300"  />
-
-6. In the terminal window that just opened, type the
-
-```bash
-[bash cs1102]$ javac HelloWorld.java
-```
