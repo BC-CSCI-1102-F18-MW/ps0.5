@@ -6,15 +6,19 @@
 
 1. Create a folder on your computer for this class called CS2 or CS1102. I have mine on my Desktop so it's easy to find.
 
-2. By now you should have received an email with an invitation to accept Problem Set 0.5. If you didn't receive the email or can't find it, you can find the link on Canvas. Accept the invitation, and then download the associated repository as a zip file, move the zip to the class folder you created in Step 1, and unzip it.
+2. By now you should have received an email with an invitation to accept Problem Set 0.5. If you didn't receive the email or can't find it, you can find the link to the invitation on Canvas. Accept the invitation, which will create a repository just for you to use to complete this assignment.
 
-3. You now have the git repository ("repo") you need to complete the programming portion of the problem set, which will be described in part 5, below.
+3. Follow the link to the repository that was created, and locate the green "Clone or download" on the right. Click that button, and then copy the the URL beginning with ``https://`` that appears, as shown below.
+
+<img src="img/cloneurl.png" width="600"  />
+
+4. You will need the URL in Part 5, so paste it somewhere you can easily access it in a few minutes. And of course, you can always find it again by just going to github.com and selecting this problem set repository. 
 
 ### Part 2: Install Java SE
 
 1. Although there are several newer versions of Java, we'll be using Java 8. Download the Java SE Development Kit 8u181 (the last three numbers might be different, that's okay!) for your operating system from [here](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
 
-2. After you download the dmg (Mac) or exe (Windows), double-click it to start the installation. Click where you need to click to complete the installation, and you should be all set. If something goes wrong, contact a TA.
+2. After you download the .dmg (Mac) or .exe (Windows), double-click it to start the installation. Click where you need to click to complete the installation, and you should be all set. If something goes wrong, contact a TA.
 
 ### Part 3: Install the textbook library
 
@@ -77,7 +81,7 @@ If you have problems with any of these steps, reach out to a TA. If it worked, m
 
 #### Windows
 
-What follows is a cribbed version of instructions specified on SW's algs4 website for adding the `algs4.jar` library to the `CLASSPATH` for Windows.
+What follows comes from the instructions on SW's algs4 website for adding the `algs4.jar` library to the `CLASSPATH` for Windows.
 
 1. Windows 7: Start -> Computer -> System Properties -> Advanced system settings -> Environment Variables -> User variables -> CLASSPATH. Windows 8 and 10: Search -> System (Control Panel) -> Advanced system settings -> Environment Variables -> User variables -> CLASSPATH.
 
@@ -111,7 +115,12 @@ In this course we'll be using GitHub's Atom editor to write our Java code, and w
 
 5. In the search box that appears, enter ``platformio-ide-terminal``. Click Install button for ``platform-ide-terminal``, and wait for installation to complete.
 
-### Part 5: Editing a file and pushing edits to GitHub
+### Part 5: Getting a local copy of the repository from GitHub
+
+1. In Atom, 
+
+
+### Part 6: Editing a file and pushing edits to GitHub
 
 1. In Atom, go to `File -> Open`, and navigate to your class folder, where you unzipped the folder you downloaded from GitHub for this problem set in Part 1, above. Select the problem set folder, and then click Open. 
 
