@@ -10,7 +10,7 @@
 
 3. Follow the link to the repository that was created, and locate the green "Clone or download" on the right. Click that button, and then copy the the URL beginning with ``https://`` that appears, as shown below.
 
-<img src="img/cloneurl.png" width="600"  />
+<img src="img/clone.png" width="600"  />
 
 4. You will need the URL in Part 5, so paste it somewhere you can easily access it in a few minutes. And of course, you can always find it again by just going to github.com and selecting this problem set repository. 
 
