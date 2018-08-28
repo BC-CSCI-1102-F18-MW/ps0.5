@@ -10,7 +10,7 @@
 
 3. Follow the link to the repository that was created, and locate the green "Clone or download" on the right. Click that button, and then copy the the URL beginning with ``https://`` that appears, as shown below.
 
-<img src="img/clone.png" width="600"  />
+<img src="img/clone.png" width="700"  />
 
 4. You will need the URL in Part 5, so paste it somewhere you can easily access it in a few minutes. And of course, you can always find it again by just going to github.com and selecting this problem set repository. 
 
@@ -51,7 +51,7 @@ $ echo "export CLASSPATH=\$CLASSPATH:/usr/local/algs4/algs4.jar" >> ~/.bash_prof
 $ source .bashrc
 ```
 
-The first command makes your home directory (i.e.,  `/Users/yourusername/`) the current working directory. The second command appends a key line to your bash startup file (``.bash_profile``) setting your `CLASSPATH` variable. The third command executes that startup file. That same startup file will be automatically executed each time you launch the Terminal app.
+The first command makes your home directory (i.e.,  `/Users/yourusername/`) the current working directory. The second command appends a key line to your bash startup file (``.bash_profile``) setting your `CLASSPATH` variable. The third command executes that startup file. That same startup file will be automatically executed each time you launch the Terminal app. 
 
 Confirm that Java is installed by typing
 
@@ -77,7 +77,7 @@ you should see something like
 /usr/local/algs4/algs4.jar
 ```
 
-If you have problems with any of these steps, reach out to a TA. If it worked, move on to Part 4 and skip over the Windows instructions, below.
+If you have problems with any of these steps, reach out to a TA or the instructor. If it worked, move on to Part 4 and skip over the Windows instructions, below.
 
 #### Windows
 
@@ -95,7 +95,7 @@ What follows comes from the instructions on SW's algs4 website for adding the `a
 
 3. Click OK three times.
 
-*NOTE:* If you don't see a variable named `CLASSPATH`, click **New** and in the popup window enter `CLASSPATH` for the variable name. Then, perform the instructions above.
+*NOTE:* If you don't see a variable named `CLASSPATH`, click **New** and in the popup window enter `CLASSPATH` for the variable name. Then, perform the instructions above. If you have problems with any of these steps, reach out to the Windows expert TA, Anthony.
 
 ### Part 4: Install and configure Atom
 
@@ -117,12 +117,18 @@ In this course we'll be using GitHub's Atom editor to write our Java code, and w
 
 ### Part 5: Getting a local copy of the repository from GitHub
 
-1. In Atom, 
+1. In Atom, go to ``Packages -> Command Palette -> Toggle``.
+
+2. In the pop-up window that opens, start typing ``GitHub``, and the GitHub: commands will appear. Select ``GitHub: Clone``.
+
+3. Paste the URL from Part 1 in the first box, and the path to the course folder you created to Part 1 in the second box.
+
+4. Click the ``Clone`` button. This will copy you personal ps0.5 repository to your computer. 
 
 
 ### Part 6: Editing a file and pushing edits to GitHub
 
-1. In Atom, go to `File -> Open`, and navigate to your class folder, where you unzipped the folder you downloaded from GitHub for this problem set in Part 1, above. Select the problem set folder, and then click Open. 
+1. If you just did Part 5, you should see the contents of the repository in Atom. If you can't see the ps0.5 repository, then go to `File -> Open`, and navigate to your class folder, where you should find your local respoitory. Select it and click Open.
 
 2. You should now see something like this, below, with a tree structure showing the files in your current directory in the left pane and an empty pane on the right. (Feel free to close any of the pesky Welcome tabs and panes that Atom likes to open up.)
 
@@ -138,5 +144,9 @@ System.out.println("Hello, World!")
 Replace the words ``Hello, World!`` with your favorite greeting.
 
 4. From the ``File`` menu, select ``Save`` (or use your usual keyboard shortcut for saving, like command-s in MacOS or control-s in Windows).
+
+5. Go to ``Packages -> GitHub -> Toggle Git Tab``.
+
+6. 
 
 
