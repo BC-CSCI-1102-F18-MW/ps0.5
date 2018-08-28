@@ -147,6 +147,10 @@ Replace the words ``Hello, World!`` with your favorite greeting.
 
 5. Go to ``Packages -> GitHub -> Toggle Git Tab``.
 
-6. 
+6. The Git tab will open, and you'll see something like this, below. Click ``Stage all``.
+
+7. Type something where it says Commit message.
+
+8. Click ``Commit to master``
 
 
