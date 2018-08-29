@@ -109,7 +109,7 @@ In this course we'll be using GitHub's Atom editor to write our Java code, and w
 
 <img src="img/atommenu.png" width="300"  />
 
-4. On the left of the Settings area, you’ll see a menu with items like Core, Editor, URI Handling and so on. Click on the menu item that says Install, which has a plus-sign icon next to it.
+4. On the left of the Settings area, you’ll see a menu with items like Core, Editor, URI Handling, and so on. Click on the menu item that says Install, which has a plus-sign icon next to it.
 
 <img src="img/install.png" width="600"  />
 
@@ -123,7 +123,7 @@ In this course we'll be using GitHub's Atom editor to write our Java code, and w
 
 3. Paste the URL from Part 1 in the first box, and the path to the course folder you created to Part 1 in the second box.
 
-4. Click the ``Clone`` button. This will copy you personal ps0.5 repository to your computer. 
+4. Click the ``Clone`` button. This will copy your personal ps0.5 repository to your computer. 
 
 
 ### Part 6: Editing a file and pushing edits to GitHub
@@ -149,7 +149,7 @@ Replace the words ``Hello, World!`` with your favorite greeting.
 
 6. The Git tab will open, and you'll see something like this, below. Click ``Stage all``.
 
-7. Type something where it says Commit message.
+7. Type something where it says ``Commit message``.
 
 8. Click ``Commit to master``
 
