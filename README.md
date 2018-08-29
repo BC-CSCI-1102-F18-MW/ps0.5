@@ -103,7 +103,7 @@ In this course we'll be using GitHub's Atom editor to write our Java code, and w
 
 1. [Download Atom](https://atom.io). Double click the downloaded file unzip it (if necessary), then move Atom to a place on your computer where it will be easy to find (e.g., in the Applications folder or on your desktop).
 
-2. Launch Atom. There are a few tabs or frames that open automatically, which you can close by clicking the "X" in the upper right corner of the tab or frame.
+2. Launch Atom. There are a few tabs or frames that open automatically, which you can close by clicking the "X" in the upper right corner of the tab or frame. (If all these windows keep popping up when start Atom, you can turn them off in the Preferences.)
 
 3. You now need to install an Atom package that will customize Atom for use in this class. From Atom's menu bar, click the Atom menu, and then select Preferences to open the Settings menu. You can also access the settings via a keyboard shortcut: in MacOS hold down the ``command``key and type a comma; in Windows, hold down the ``control`` key and type a comma.
 
@@ -115,7 +115,7 @@ In this course we'll be using GitHub's Atom editor to write our Java code, and w
 
 5. In the search box that appears, enter ``platformio-ide-terminal``. Click Install button for ``platform-ide-terminal``, and wait for installation to complete.
 
-### Part 5: Getting a local copy of the repository from GitHub
+### Part 5: Get a local copy of the repository from GitHub
 
 1. In Atom, go to ``Packages -> Command Palette -> Toggle``.
 
@@ -126,13 +126,13 @@ In this course we'll be using GitHub's Atom editor to write our Java code, and w
 4. Click the ``Clone`` button. This will copy your personal ps0.5 repository to your computer. 
 
 
-### Part 6: Editing a file and pushing edits to GitHub
+### Part 6: Edit a file and push edits to GitHub
 
 1. If you just did Part 5, you should see the contents of the repository in Atom. If you can't see the ps0.5 repository, then go to `File -> Open`, and navigate to your class folder, where you should find your local respoitory. Select it and click Open.
 
 2. You should now see something like this, below, with a tree structure showing the files in your current directory in the left pane and an empty pane on the right. (Feel free to close any of the pesky Welcome tabs and panes that Atom likes to open up.)
 
-<img src="img/atomjava.png" width="300"  />
+<img src="img/atomjava.png" width="700"  />
 
 
 3. Click on ``HelloWorld.java``, and code will appear in the panel on the right. Find where you see this in the code:
