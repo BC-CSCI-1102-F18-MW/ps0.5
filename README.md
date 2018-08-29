@@ -157,6 +157,6 @@ Replace the words ``Hello, World!`` with your favorite greeting.
 
 9. Click the ``Push`` on the right in the bottom menubar, between ``master`` and ``files``. 
 
-9. Go to GitHub and find your respository for this problem set. You should see the changes reflected in your problem set repository. This is the problem set we will grade. If you've gotten this far, congratulations! You are ready for Problem Set 1.
+9. Go to GitHub and find your respository for this problem set. You should see the changes reflected in your problem set repository and see ``last updated 1 minute ago`` (or thereabouts). This is what we will grade. Congratulations! You are ready for Problem Set 1.
 
 
