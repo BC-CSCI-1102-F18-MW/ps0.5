@@ -151,10 +151,12 @@ Replace the words ``Hello, World!`` with your favorite greeting.
 
 <img src="img/atom2.png" width="700"  />
 
-7. Type something where it says ``Commit message``.
+7. Type a comment explaining what you did and why where it says ``Commit message``.
 
-8. Click ``Commit to master``
+8. Click ``Commit to master``.
 
-9. Go to GitHub and find your respository for this problem set. You should see 
+9. Click the ``Push`` on the right in the bottom menubar, between ``master`` and ``files``. 
+
+9. Go to GitHub and find your respository for this problem set. You should see the changes reflected in your problem set repository. This is the problem set we will grade. If you've gotten this far, congratulations! You are ready for Problem Set 1.
 
 
