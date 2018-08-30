@@ -48,7 +48,7 @@ For now type **exactly** what is shown to the right of the `$` prompt. Feel free
 ```bash
 $ cd
 $ echo "export CLASSPATH=\$CLASSPATH:/usr/local/algs4/algs4.jar" >> ~/.bash_profile
-$ source .bashrc
+$ source .bash_profile
 ```
 
 The first command makes your home directory (i.e.,  `/Users/yourusername/`) the current working directory. The second command appends a key line to your bash startup file (``.bash_profile``) setting your `CLASSPATH` variable. The third command executes that startup file. That same startup file will be automatically executed each time you launch the Terminal app. 
@@ -124,6 +124,8 @@ In this course we'll be using GitHub's Atom editor to write our Java code, and w
 3. Paste the URL from Part 1 in the first box, and the path to the **course folder** you created to Part 1 in the second box.
 
 4. Click the ``Clone`` button. This will copy your personal ps0.5 repository to your computer. 
+
+**NOTE:** Some students have reported difficulty using the usual GUI way to clone a repository in Atom, described above. If you end up with an empty repository following theese instructions, do one of the following (1) use the GitHub Desktop app to do your cloning (recommended for Windows users); or (2) go to ``Packages -> platform-ide-terminal -> New Terminal``; then type ``git clone`` followed by the link to your repository, which will ask for your GitHub username and password, and will clone the repo to your home directory. 
 
 
 ### Part 6: Edit a file and push edits to GitHub
